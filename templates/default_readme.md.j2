@@ -1,0 +1,151 @@
+<!--
+  Generated dynamically by DevPulse AI - GitHub Portfolio Assistant
+  Automated Daily via GitHub Actions Workflow
+  Last Updated: {{ generated_at | format_date }}
+-->
+
+# Hi there, I'm [{{ user.name or user.login }}]({{ user.html_url }}) 👋
+
+<div align="center">
+
+![Avatar]({{ user.avatar_url }}&s=150)
+
+### {{ user.bio or "Software Engineer & Open Source Contributor" }}
+
+{% if user.location %}📍 **Location:** {{ user.location }} &nbsp;|&nbsp; {% endif %}
+{% if user.company %}🏢 **Company:** {{ user.company }} &nbsp;|&nbsp; {% endif %}
+{% if user.blog %}🌐 **Website:** [{{ user.blog }}]({{ user.blog }}){% endif %}
+
+[![DevPulse AI Automation](https://img.shields.io/badge/DevPulse_AI-Automated_Daily-7057ff?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/{{ user.login }})
+[![GitHub Followers](https://img.shields.io/github/followers/{{ user.login }}?style=for-the-badge&logo=github&color=238636)](https://github.com/{{ user.login }}?tab=followers)
+[![GitHub Repos](https://img.shields.io/badge/Repositories-{{ summary.total_repos }}-blue?style=for-the-badge&logo=github)](https://github.com/{{ user.login }}?tab=repositories)
+[![Total Stars](https://img.shields.io/badge/Total_Stars-{{ summary.total_stars | k_format }}-yellow?style=for-the-badge&logo=github)](https://github.com/{{ user.login }})
+[![Total Forks](https://img.shields.io/badge/Total_Forks-{{ summary.total_forks | k_format }}-orange?style=for-the-badge&logo=github)](https://github.com/{{ user.login }})
+
+</div>
+
+---
+
+## 📊 Portfolio Overview & Telemetry
+
+| Metric | Value | Metric | Value |
+| :--- | :--- | :--- | :--- |
+| 📦 **Public Repositories** | `{{ summary.total_repos }}` | ⭐ **Total Stars Earned** | `{{ summary.total_stars | k_format }}` |
+| 🍴 **Total Repository Forks** | `{{ summary.total_forks | k_format }}` | 👀 **Total Repository Watchers** | `{{ summary.total_watchers | k_format }}` |
+| 👥 **Followers** | `{{ user.followers }}` | 👤 **Following** | `{{ user.following }}` |
+| 📜 **Public Gists** | `{{ user.public_gists }}` | 🐛 **Open Issues Tracked** | `{{ summary.total_open_issues }}` |
+
+---
+
+{% if portfolio_delta %}
+## 📈 Portfolio Evolution & Snapshot History
+
+{% if portfolio_delta.previous_snapshot_date and portfolio_delta.previous_snapshot_date != "None" %}
+> 📊 **Telemetry Comparison:** Compared against snapshot from `{{ portfolio_delta.previous_snapshot_date | format_date }}` &nbsp;|&nbsp; 🚀 **Status:** `{{ portfolio_delta.growth_summary_status }}`
+
+| Growth Metric | Delta Change | Details |
+| :--- | :--- | :--- |
+| 📦 **Repository Growth** | `{% if portfolio_delta.repo_count_growth >= 0 %}+{% endif %}{{ portfolio_delta.repo_count_growth }}` | Net Repository Change |
+| ⭐ **Stars Gained** | `{% if portfolio_delta.star_growth >= 0 %}+{% endif %}{{ portfolio_delta.star_growth }}` | Total Star Delta |
+| 🍴 **Forks Gained** | `{% if portfolio_delta.fork_growth >= 0 %}+{% endif %}{{ portfolio_delta.fork_growth }}` | Total Fork Delta |
+| 👀 **Watchers Gained** | `{% if portfolio_delta.watcher_growth >= 0 %}+{% endif %}{{ portfolio_delta.watcher_growth }}` | Total Watcher Delta |
+{% if portfolio_delta.new_languages %}| 💡 **New Languages** | `{{ portfolio_delta.new_languages | join(', ') }}` | Recently Added Technologies |{% endif %}
+{% if portfolio_delta.newly_added_repos %}| ✨ **New Repositories** | `{{ portfolio_delta.newly_added_repos | join(', ') }}` | Recently Created Projects |{% endif %}
+
+{% else %}
+> ℹ️ **Historical Tracking Initialized:** Baseline snapshot recorded on `{{ generated_at | format_date }}`. Portfolio growth metrics will be tracked across future daily executions.
+{% endif %}
+
+---
+{% endif %}
+
+{% if project_health and repository_growth %}
+## 🩺 Project Health & Repository Growth
+
+| Health & Growth Metric | Value | Insights |
+| :--- | :--- | :--- |
+| 🟢 **Active vs Archived Repos** | `{{ project_health.active_repos_count }} Active / {{ project_health.archived_repos_count }} Archived` | `{{ (project_health.active_repos_count / (summary.total_repos or 1) * 100) | round(1) }}% Active Ratio` |
+| 📜 **License Coverage** | `{{ project_health.license_coverage_pct }}%` | Open Source Licensing Compliance |
+| 📝 **Description Coverage** | `{{ project_health.description_coverage_pct }}%` | Metadata Completeness |
+| ⏳ **Account Age** | `{{ repository_growth.account_age_years }} Years` | GitHub Developer Tenure |
+| 🌟 **Average Engagement** | `{{ repository_growth.avg_stars_per_repo }} Stars/Repo` | `{{ repository_growth.avg_forks_per_repo }} Forks/Repo` |
+| 🐣 **Newest Repository** | `{{ repository_growth.newest_repo_name }}` | Latest Created Project |
+
+---
+{% endif %}
+
+## 💻 Top Programming Languages & Coding Trends
+
+{% if coding_trend %}
+> 📈 **Primary Technology Focus:** `{{ coding_trend.primary_trend_language }}` &nbsp;|&nbsp; 🎨 **Language Diversity Score:** `{{ coding_trend.language_diversity_score }} Languages`
+{% endif %}
+
+{% if top_languages %}
+```text
+{% for lang in top_languages %}
+{{ lang.name.ljust(15) }} {{ lang.percentage | percentage_bar(15) }} {{ "%6.2f" | format(lang.percentage) }}% ({{ lang.bytes_count | k_format }} Bytes)
+{% endfor %}
+```
+
+<details>
+<summary><b>Language Distribution Breakdown</b></summary>
+
+| Language | Byte Usage | Share Percentage | Visual Bar |
+| :--- | :--- | :--- | :--- |
+{% for lang in top_languages %}
+| **{{ lang.name }}** | `{{ lang.bytes_count | k_format }} B` | `{{ lang.percentage }}%` | `{{ lang.percentage | percentage_bar(12) }}` |
+{% endfor %}
+
+</details>
+{% else %}
+*No language telemetry available.*
+{% endif %}
+
+---
+
+{% if portfolio_insights and developer_activity %}
+## ⚡ Developer Activity & Portfolio Insights
+
+- 🚀 **Strongest Project:** [`{{ portfolio_insights.strongest_repo_name }}`](https://github.com/{{ user.login }}/{{ portfolio_insights.strongest_repo_name }})
+- 🔨 **Most Maintained Project:** [`{{ portfolio_insights.most_maintained_repo_name }}`](https://github.com/{{ user.login }}/{{ portfolio_insights.most_maintained_repo_name }})
+- 📌 **Needs Attention:** [`{{ portfolio_insights.repo_needing_attention_name }}`](https://github.com/{{ user.login }}/{{ portfolio_insights.repo_needing_attention_name }})
+- 🏅 **Portfolio Maturity Level:** `{{ portfolio_insights.portfolio_maturity_level }}`
+- 📋 **Documentation Completeness:** `{{ portfolio_insights.documentation_completeness_pct }}%`
+- 🔥 **Recent Activity (Past 30 Days):** `{{ developer_activity.recently_updated_count }} Repos Updated`
+
+---
+{% endif %}
+
+## ⭐ Featured Repositories
+
+{% if featured_repos %}
+{% for repo in featured_repos %}
+### 🚀 [{{ repo.name }}]({{ repo.html_url }})
+> {{ repo.description | sanitize_markdown }}
+
+- 🏷️ **Primary Language:** `{{ repo.primary_language or 'N/A' }}`
+- ⭐ **Stars:** `{{ repo.stargazers_count | k_format }}` &nbsp;|&nbsp; 🍴 **Forks:** `{{ repo.forks_count | k_format }}` &nbsp;|&nbsp; 🕒 **Updated:** `{{ repo.updated_at | format_date }}`
+{% if repo.license_name %}- ⚖️ **License:** `{{ repo.license_name }}`{% endif %}
+
+{% endfor %}
+{% else %}
+*No featured repositories identified.*
+{% endif %}
+
+---
+
+## 📅 Recent Repository Activity
+
+| Repository | Primary Language | Stars | Forks | Last Updated |
+| :--- | :--- | :--- | :--- | :--- |
+{% for repo in recent_repos %}
+| [**{{ repo.name }}**]({{ repo.html_url }}) | `{{ repo.primary_language or 'N/A' }}` | ⭐ `{{ repo.stargazers_count }}` | 🍴 `{{ repo.forks_count }}` | `{{ repo.updated_at | format_date }}` |
+{% endfor %}
+
+---
+
+<div align="center">
+
+<sub>⚡ Dynamic portfolio telemetry compiled by **[DevPulse AI](https://github.com/DevPulse-AI)** &nbsp;•&nbsp; *Last updated: {{ generated_at | format_date }}*</sub>
+
+</div>

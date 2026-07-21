@@ -1,0 +1,42 @@
+# DevPulse AI - Application Configuration Settings
+
+app:
+  name: "DevPulse AI"
+  version: "1.0.0"
+  description: "GitHub Portfolio Assistant - Phase 2 Automation & Telemetry Platform"
+
+portfolio:
+  # Maximum top languages to display in analytics and README
+  top_languages_count: 6
+
+  # Maximum featured repositories to display
+  featured_repos_count: 4
+
+  # Maximum recent repositories to display
+  recent_repos_count: 6
+
+  # Filter settings for repository statistics calculation
+  include_forks: false
+  include_archived: false
+
+  # Optional explicit list of featured repository names (if empty, ranks by stars/forks)
+  featured_repo_names: []
+
+templates:
+  # Path to Jinja2 README template file
+  readme_template: "templates/default_readme.md.j2"
+
+output:
+  # Target output directory for generated artifacts
+  directory: "output"
+  analytics_file: "analytics.json"
+  readme_file: "README.md"
+  history_directory: "output/history"
+
+api:
+  # Timeout in seconds for HTTP API requests
+  timeout: 10
+  # Maximum worker threads for parallel language details fetching
+  max_workers: 5
+  # Minimum remaining quota before raising rate limit warning
+  min_rate_limit_warning: 10

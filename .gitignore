@@ -1,0 +1,27 @@
+# Environment & Secrets
+.env
+*.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Output & Artifacts
+output/*.json
+output/*.md
+logs/*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
