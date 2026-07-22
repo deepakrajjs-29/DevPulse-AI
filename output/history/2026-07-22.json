@@ -1,0 +1,412 @@
+{
+  "user": {
+    "login": "deepakrajjs-29",
+    "name": "DEEPAK RAJ J.S",
+    "avatar_url": "https://avatars.githubusercontent.com/u/155525241?v=4",
+    "html_url": "https://github.com/deepakrajjs-29",
+    "bio": "AI Developer • Full-Stack Engineer • Turning ideas into working software.",
+    "company": "Freelancer",
+    "location": "COIMBATORE,TAMILNADU,INDIA",
+    "blog": "",
+    "public_repos": 60,
+    "public_gists": 0,
+    "followers": 20,
+    "following": 22,
+    "created_at": "2024-01-03T08:06:00Z"
+  },
+  "summary": {
+    "total_repos": 60,
+    "total_stars": 7,
+    "total_forks": 3,
+    "total_watchers": 7,
+    "total_open_issues": 4
+  },
+  "top_languages": [
+    {
+      "name": "Jupyter Notebook",
+      "bytes": 2028249,
+      "percentage": 34.94
+    },
+    {
+      "name": "HTML",
+      "bytes": 1685576,
+      "percentage": 29.04
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 678776,
+      "percentage": 11.69
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 671384,
+      "percentage": 11.57
+    },
+    {
+      "name": "CSS",
+      "bytes": 437305,
+      "percentage": 7.53
+    },
+    {
+      "name": "Python",
+      "bytes": 217183,
+      "percentage": 3.74
+    }
+  ],
+  "featured_repositories": [
+    {
+      "id": 1022643313,
+      "name": "ServeWithLove",
+      "full_name": "deepakrajjs-29/ServeWithLove",
+      "description": "Serve With Love <3",
+      "html_url": "https://github.com/deepakrajjs-29/ServeWithLove",
+      "stargazers_count": 5,
+      "forks_count": 0,
+      "watchers_count": 5,
+      "open_issues_count": 0,
+      "primary_language": "JavaScript",
+      "languages": {
+        "JavaScript": 73213,
+        "Dockerfile": 504,
+        "HTML": 362,
+        "CSS": 126
+      },
+      "topics": [],
+      "license_name": "N/A",
+      "created_at": "2025-07-19T14:14:01Z",
+      "updated_at": "2026-07-21T13:10:38Z",
+      "pushed_at": "2026-04-17T11:15:52Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": true
+    },
+    {
+      "id": 1179009208,
+      "name": "StockIntel",
+      "full_name": "deepakrajjs-29/StockIntel",
+      "description": "",
+      "html_url": "https://github.com/deepakrajjs-29/StockIntel",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "watchers_count": 1,
+      "open_issues_count": 0,
+      "primary_language": "Python",
+      "languages": {
+        "Python": 49052,
+        "JavaScript": 28525,
+        "CSS": 25101,
+        "HTML": 10391
+      },
+      "topics": [],
+      "license_name": "N/A",
+      "created_at": "2026-03-11T15:39:59Z",
+      "updated_at": "2026-06-23T13:19:05Z",
+      "pushed_at": "2026-03-11T15:42:28Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": true
+    },
+    {
+      "id": 1003003410,
+      "name": "VehiclePlate-Detection-AI",
+      "full_name": "deepakrajjs-29/VehiclePlate-Detection-AI",
+      "description": "An AI-powered Number Plate Recognition system using Python, OpenCV, and Tesseract OCR. Detects vehicle number plates from images, extracts text, identifies Indian states based on plate codes, and logs results with a user-friendly Flask web interface. Fast, accurate, and easy to deploy.",
+      "html_url": "https://github.com/deepakrajjs-29/VehiclePlate-Detection-AI",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "watchers_count": 1,
+      "open_issues_count": 0,
+      "primary_language": "Python",
+      "languages": {
+        "Python": 4680
+      },
+      "topics": [],
+      "license_name": "MIT License",
+      "created_at": "2025-06-16T13:26:40Z",
+      "updated_at": "2026-01-07T15:08:41Z",
+      "pushed_at": "2026-01-07T15:08:38Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": true
+    },
+    {
+      "id": 1181508099,
+      "name": "QR-Generator",
+      "full_name": "deepakrajjs-29/QR-Generator",
+      "description": "",
+      "html_url": "https://github.com/deepakrajjs-29/QR-Generator",
+      "stargazers_count": 0,
+      "forks_count": 2,
+      "watchers_count": 0,
+      "open_issues_count": 0,
+      "primary_language": "HTML",
+      "languages": {
+        "HTML": 37346
+      },
+      "topics": [],
+      "license_name": "N/A",
+      "created_at": "2026-03-14T08:27:42Z",
+      "updated_at": "2026-03-14T13:56:15Z",
+      "pushed_at": "2026-03-14T13:56:11Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": true
+    }
+  ],
+  "recent_repositories": [
+    {
+      "id": 1302589870,
+      "name": "DevPulse-AI",
+      "full_name": "deepakrajjs-29/DevPulse-AI",
+      "description": "",
+      "html_url": "https://github.com/deepakrajjs-29/DevPulse-AI",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "open_issues_count": 0,
+      "primary_language": "Python",
+      "languages": {
+        "Python": 102664,
+        "Jinja": 7762
+      },
+      "topics": [],
+      "license_name": "N/A",
+      "created_at": "2026-07-16T09:30:28Z",
+      "updated_at": "2026-07-21T17:22:43Z",
+      "pushed_at": "2026-07-21T17:20:28Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": false
+    },
+    {
+      "id": 1022643313,
+      "name": "ServeWithLove",
+      "full_name": "deepakrajjs-29/ServeWithLove",
+      "description": "Serve With Love <3",
+      "html_url": "https://github.com/deepakrajjs-29/ServeWithLove",
+      "stargazers_count": 5,
+      "forks_count": 0,
+      "watchers_count": 5,
+      "open_issues_count": 0,
+      "primary_language": "JavaScript",
+      "languages": {
+        "JavaScript": 73213,
+        "Dockerfile": 504,
+        "HTML": 362,
+        "CSS": 126
+      },
+      "topics": [],
+      "license_name": "N/A",
+      "created_at": "2025-07-19T14:14:01Z",
+      "updated_at": "2026-07-21T13:10:38Z",
+      "pushed_at": "2026-04-17T11:15:52Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": true
+    },
+    {
+      "id": 1008095459,
+      "name": "Zomato-Restaurant-Rating-Prediction-and-Sentiment-Analysis",
+      "full_name": "deepakrajjs-29/Zomato-Restaurant-Rating-Prediction-and-Sentiment-Analysis",
+      "description": "",
+      "html_url": "https://github.com/deepakrajjs-29/Zomato-Restaurant-Rating-Prediction-and-Sentiment-Analysis",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "open_issues_count": 0,
+      "primary_language": "Jupyter Notebook",
+      "languages": {
+        "Jupyter Notebook": 2028249
+      },
+      "topics": [],
+      "license_name": "N/A",
+      "created_at": "2025-06-25T02:53:49Z",
+      "updated_at": "2026-07-20T13:09:47Z",
+      "pushed_at": "2026-07-20T13:09:46Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": false
+    },
+    {
+      "id": 1001854785,
+      "name": "AI-newsHub",
+      "full_name": "deepakrajjs-29/AI-newsHub",
+      "description": "",
+      "html_url": "https://github.com/deepakrajjs-29/AI-newsHub",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "open_issues_count": 0,
+      "primary_language": "TypeScript",
+      "languages": {
+        "TypeScript": 320584,
+        "CSS": 8298,
+        "Dockerfile": 2210,
+        "JavaScript": 892
+      },
+      "topics": [],
+      "license_name": "N/A",
+      "created_at": "2025-06-14T07:08:09Z",
+      "updated_at": "2026-07-18T09:20:19Z",
+      "pushed_at": "2026-07-18T09:20:10Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": false
+    },
+    {
+      "id": 1195478480,
+      "name": "CodeMentorAI",
+      "full_name": "deepakrajjs-29/CodeMentorAI",
+      "description": "",
+      "html_url": "https://github.com/deepakrajjs-29/CodeMentorAI",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "open_issues_count": 0,
+      "primary_language": "Python",
+      "languages": {
+        "Python": 5474
+      },
+      "topics": [],
+      "license_name": "MIT License",
+      "created_at": "2026-03-29T18:03:58Z",
+      "updated_at": "2026-07-16T18:45:27Z",
+      "pushed_at": "2026-07-16T18:45:14Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": false
+    },
+    {
+      "id": 1014359744,
+      "name": "DevLens-AI",
+      "full_name": "deepakrajjs-29/DevLens-AI",
+      "description": "",
+      "html_url": "https://github.com/deepakrajjs-29/DevLens-AI",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "open_issues_count": 0,
+      "primary_language": "TypeScript",
+      "languages": {
+        "TypeScript": 250748,
+        "Rust": 72670,
+        "CSS": 5263,
+        "HTML": 617
+      },
+      "topics": [],
+      "license_name": "N/A",
+      "created_at": "2025-07-05T15:09:53Z",
+      "updated_at": "2026-07-14T14:00:57Z",
+      "pushed_at": "2026-07-14T14:00:20Z",
+      "is_fork": false,
+      "is_archived": false,
+      "is_featured": false
+    }
+  ],
+  "generated_at": "2026-07-22T02:02:01.846219+00:00",
+  "metadata": {
+    "generated_at": "2026-07-22T02:02:01.846219+00:00",
+    "app_version": "1.0.0",
+    "username": "deepakrajjs-29",
+    "generator_name": "DevPulse AI"
+  },
+  "project_health": {
+    "active_repos_count": 60,
+    "archived_repos_count": 0,
+    "license_coverage_pct": 10.0,
+    "description_coverage_pct": 11.7,
+    "total_open_issues": 4
+  },
+  "repository_growth": {
+    "total_repos": 60,
+    "newest_repo_name": "DevPulse-AI",
+    "oldest_repo_name": "Codsost-Internship-projects",
+    "account_age_years": 2.5,
+    "avg_stars_per_repo": 0.1,
+    "avg_forks_per_repo": 0.1
+  },
+  "coding_trend": {
+    "primary_trend_language": "Jupyter Notebook",
+    "language_diversity_score": 10,
+    "active_languages_count": 10,
+    "top_language_percentage": 34.94
+  },
+  "developer_activity": {
+    "recently_updated_count": 12,
+    "recently_created_count": 1,
+    "most_active_repo_name": "ServeWithLove",
+    "latest_repo_name": "DevPulse-AI"
+  },
+  "portfolio_insights": {
+    "strongest_repo_name": "ServeWithLove",
+    "repo_needing_attention_name": "silver-adventure",
+    "most_maintained_repo_name": "DevPulse-AI",
+    "documentation_completeness_pct": 10.8,
+    "portfolio_maturity_level": "Established",
+    "health_overview_status": "Needs Improvement"
+  },
+  "portfolio_delta": {
+    "repo_count_growth": 0,
+    "star_growth": 0,
+    "fork_growth": 0,
+    "watcher_growth": 0,
+    "newly_added_repos": [
+      "-PORTFOLIO",
+      "AI-SHEETS",
+      "Automatic-form-filler",
+      "CALCULATOR",
+      "CaptionStudio",
+      "Car-Parking-Space-Detection-System",
+      "Chatbot",
+      "Codsost-Internship-projects",
+      "Connect-hub",
+      "Dark-UI-sample",
+      "DiscoverJourney-SaaS",
+      "Electricity-Bill-Calculator",
+      "Gesture-Based-Real-Time-Elders-Safety-System-with-Fall-Detection",
+      "GestureGalaxy",
+      "GitHub-Extractor",
+      "IMAGE-GENERATOR",
+      "InAmigos-foundation",
+      "Invinsible",
+      "JoinUp",
+      "Keypad-Security-System-With-Servo",
+      "Kiddy-AI",
+      "Language-translator",
+      "Odoo-hackathon",
+      "Password-Generator",
+      "Power-Calculator",
+      "Real-Time-Fall-Detection-with-OpenCV",
+      "ReguGuard",
+      "Responsive-UI-Demo",
+      "SMART-ELECTRICITY-MONITORING-USING-ESP32",
+      "Scissors-Paper-Stone",
+      "Smart-Form-Filler",
+      "ToDo",
+      "URL-shortener",
+      "VI-Assistant",
+      "autonomous-student-agent",
+      "campus-reuse-hub",
+      "campus.-connect",
+      "campuse-connect",
+      "deepakrajjs-29",
+      "erxes",
+      "fly-or-die",
+      "food-donation",
+      "hand-gesture-based-home-automation",
+      "image-resizer",
+      "meetingslot-al-n8n",
+      "no-parking-monitoring-system",
+      "portfolio-",
+      "silver-adventure",
+      "skills-introduction-to--github",
+      "spot-share",
+      "web-cam"
+    ],
+    "newly_archived_repos": [],
+    "new_languages": [],
+    "removed_languages": [],
+    "growth_summary_status": "Steady Maintenance",
+    "previous_snapshot_date": "2026-07-21"
+  }
+}
