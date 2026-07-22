@@ -19,7 +19,7 @@
     "total_stars": 7,
     "total_forks": 3,
     "total_watchers": 7,
-    "total_open_issues": 4
+    "total_open_issues": 5
   },
   "top_languages": [
     {
@@ -163,7 +163,7 @@
       "stargazers_count": 0,
       "forks_count": 0,
       "watchers_count": 0,
-      "open_issues_count": 0,
+      "open_issues_count": 1,
       "primary_language": "Python",
       "languages": {
         "Python": 102664,
@@ -172,8 +172,8 @@
       "topics": [],
       "license_name": "N/A",
       "created_at": "2026-07-16T09:30:28Z",
-      "updated_at": "2026-07-21T17:22:43Z",
-      "pushed_at": "2026-07-21T17:20:28Z",
+      "updated_at": "2026-07-22T11:46:12Z",
+      "pushed_at": "2026-07-22T11:45:55Z",
       "is_fork": false,
       "is_archived": false,
       "is_featured": false
@@ -303,9 +303,9 @@
       "is_featured": false
     }
   ],
-  "generated_at": "2026-07-22T02:02:01.846219+00:00",
+  "generated_at": "2026-07-22T11:47:13.261885+00:00",
   "metadata": {
-    "generated_at": "2026-07-22T02:02:01.846219+00:00",
+    "generated_at": "2026-07-22T11:47:13.261885+00:00",
     "app_version": "1.0.0",
     "username": "deepakrajjs-29",
     "generator_name": "DevPulse AI"
@@ -315,7 +315,7 @@
     "archived_repos_count": 0,
     "license_coverage_pct": 10.0,
     "description_coverage_pct": 11.7,
-    "total_open_issues": 4
+    "total_open_issues": 5
   },
   "repository_growth": {
     "total_repos": 60,
